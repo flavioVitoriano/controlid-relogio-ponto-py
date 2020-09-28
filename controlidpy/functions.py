@@ -28,7 +28,7 @@ def get_users_from_afds(session, afds):
     return list(map(lambda x: User(x), users))
 
 
-def transform_afds(session, afds, users):
+def transform_afds(afds, users):
     parsed = list(map(lambda x: x.get_parsed(), afds))
     final_data = []
 
