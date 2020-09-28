@@ -5,7 +5,6 @@ Criei esse código com o intuito de ajudar outras pessoas que se encontram na me
 
 O código visa ajudar a conectar, importar e processar os dados AFD vindos de um relógio de ponto Control ID IDCLASS.
 
-Atualmente, tenho apenas um exemplo em um notebook jupyter, mas logo disponibilizarei uma biblioteca.
 
 ### entidades
 * Session: Classe usada para criar uma session com o REP
@@ -33,6 +32,8 @@ para rodar o projeto, rode:
     ```
     jupyter notebook
     ```
+
+
 ou veja: o arquivo **example.py**
     
 ### Criador
