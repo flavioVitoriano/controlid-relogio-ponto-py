@@ -25,16 +25,13 @@ O código visa ajudar a conectar, importar e processar os dados AFD vindos de um
 	* to_csv(data: list(any), caminho_arquivo) **retorna** None
 
 ### rodar
-para rodar o projeto, rode:
+1. instalar as dependências:
     ```
     pip install -r requirements.txt
     ```
-    ```
-    jupyter notebook
-    ```
+2. edite o arquivo **example.py**
+3. rode: ``` python example.py```
 
-
-ou veja: o arquivo **example.py**
     
 ### Criador
 Flávio Vitoriano ->  [github](https://www.github.com/flavioVitoriano)
