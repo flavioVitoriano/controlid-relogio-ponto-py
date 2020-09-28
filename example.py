@@ -8,3 +8,4 @@ users = get_users_from_afds(session, afds)
 final = transform_afds(session, afds, users)
 
 to_csv(final, "csv_example.csv")
+
