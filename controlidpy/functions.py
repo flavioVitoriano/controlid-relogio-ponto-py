@@ -1,4 +1,4 @@
-from controlidpy import User, AFD
+from .entities import User, AFD
 import pandas as pd
 
 
